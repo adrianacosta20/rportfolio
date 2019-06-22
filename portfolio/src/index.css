@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  width: 100vw;
+  height: 100vh;
+  background-color: #FFFFFF;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.container{
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  flex-direction: column;
+}
+/* 
+.main{
+  border: 1px solid black;
+
+} */
+
+.last{
+  width: 50vw;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.left{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 10vh
+}
+
+.right{
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  height: 90vh
+}
+
+
+.right-top{
+  height: 15vh;
+  display: flex
+}
+
+.right-bottom{
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  /* overflow: scroll */
+
+}
+
+.btn-container{
+  width: 50vw;
+  height: 10vh;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+}
+
+.btn{
+  padding: 0;
+  /* width: 100vw; */
+  outline: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 15px;
+  /* margin-bottom: 15px; */
+  background-color: transparent;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+  height: 3vh;
+  margin: 5px;
+  /* margin-top: 25px; */
+  /* border: 1px solid; */
+  margin-left: 30px;
+  color: #373833;
+  visibility: hidden
+}
+
+.menu-btn{
+  padding: 0;
+  /* width: 100vw; */
+  outline: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 15px;
+  /* margin-bottom: 15px; */
+  background-color: transparent;
+  border: 0;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: 'Dosis', sans-serif;
+  height: 3vh;
+  margin: 5px;
+  /* margin-top: 25px; */
+  /* border: 1px solid; */
+  margin-left: 30px;
+  color: #48484A
+}
+
+.btn:hover{
+  color: #141824;
+}
+
+.btn-border{
+  border-bottom: 1px black solid;
+}
+
+.btn-p{
+  margin: 0;
+  margin-top: 3px;
+}
+
+.right-top-name{
+  width: 25vw
+}
+
+.right-top-quote{
+  width: 75vw
+}
+
+.icon{
+  color: #48484A;
+  font-size: 27px;
+  width: 1vw;
+  margin: 8px;
+  /* margin-top: 25px; */
+}
+
+.icon:hover{
+  color: #141824
+  ;
+}
+
+.home-icon{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 3px;
+    visibility: hidden;
+    padding: 0;
+    outline: 0;
+    background-color: transparent;
+    border: 0;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;
+}
+
+.contact-icon{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 3px;
+    visibility: hidden;
+    padding: 0;
+    outline: 0;
+    background-color: transparent;
+    border: 0;
+    font-weight: bold;
+    font-family: 'Poiret One', cursive;    
+}
+
+
+.menu{
+  font-size: 29px;
+  text-align: center;
+}
+
+.fa-facebook-f{
+  margin-right: -1px;
+}

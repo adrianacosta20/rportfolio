@@ -1,0 +1,71 @@
+.skills-graph{
+    min-width: 94vw;
+    max-width: 94vw;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-box{ 
+    width: 3vw;
+    height: 65vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 60px;
+    font-weight: bold
+
+}
+
+.counter{
+    height: 86%; 
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    justify-content: space-around;
+    font-size: 24px;
+    font-family: 'Dosis', sans-serif;
+}
+
+.percentage{
+    width: 100%;
+    background-color: #363636;
+    box-shadow: 3px 3px;
+}
+
+.skill-name{
+    min-height: 10vh;
+    margin: 0;
+    margin-top: 25px;
+}
+
+/* @keyframes up{
+    0% {height: 0px;};
+    25% {height: 200px;};
+    50% {height: 400px};
+    75% {height: 550px};
+    100% {height: 600px}
+} */
+
+.skills-container{
+    display: flex;
+    align-items: center;
+    color: grey;
+}
+
+.skills-arrow-right{
+    font-size: 40px;
+    text-align: center;
+    max-width: 3vw;
+    min-width: 3vw;
+}
+
+.skills-arrow-left{
+    font-size: 40px;
+    text-align: center;
+    max-width: 3vw;
+    min-width: 3vw;
+}
